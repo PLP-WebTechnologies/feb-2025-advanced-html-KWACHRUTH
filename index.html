@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University APPLICATION FORM</title>
+</head>
+<body>
+   <h2>Application Steps</h2>
+   <ol type="I">
+    <li>Fill in the application form</li>
+    <li>Submit academic documents</li>
+    <li>Pay the application fee</li>
+    <li>Attend an interview</li>
+    <li>Recieve admission decision</li>
+   </ol> 
+
+   <h2>Welcome to Our university</h2>
+   <img src="https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&w=600" alt="CAMPUS">
+
+   <h2>Contact Information</h2>
+   <table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+    </tr>
+    <tr>
+        <td>admissions Office</td>
+        <td>254 School St, City</td>
+        <td>+254102137840</td>
+        <td>admissions@school.com</td>
+    </tr>
+    <tr>
+        <td>Finance Office</td>
+        <td>267 Campus Lane</td>
+        <td>+254700868913</td>
+        <td>finance@school.com</td>
+    </tr>
+    <tr>
+        <td>Student Affairs</td>
+        <td>55 Union</td>
+        <td>+254785859442</td>
+        <td>support@school,.com</td>
+    </tr>
+   </table>
+
+   <h2>University Application Form</h2>
+   <form>
+    <label for="full name">Full Name:</label>
+    <input type="text" id="full name" name="full name" placeholder="Enter your full name" required>
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <br><br>
+
+    <label for="password">Create Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter a secure password" required>
+    <br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+    <br><br>
+
+    <label for="course">Select Course:</label>
+    <select id="course" name="course" required>
+        <option value="">Select</option>
+        <option value="Compter Science">Kindergarten</option>
+        <option value="Business_admin">Primary</option>
+        <option value="Law">Highschool</option>
+        <option value="Medicine">College</option>
+    </select>
+    <br><br>
+
+    <label>Studying Mode:</label>
+    <input type="radio" id="part_time" name="study_mode" value="part_time" required>
+    <label for="part_time">Part_time</label>
+    <input type="radio" id="Full_time" name="study_mode" value="Full_time" required>
+    <label for="full_time">Full_time</label>
+    <br><br>
+
+    <label>Accommodation Preferences:</label>
+    <input type="checkbox" id="on_campus" name="accommodation" value="on_campus">
+    <label for="on_campus">on_campus Housing</label>
+    <input type="checkbox" id="off_campus" name="accommodation" value="off_campus">
+    <label for="off_campus">off_campus Housing</label>
+    <input type="checkbox" id="self_arrange" name="accommodation" value="self_arrange">
+    <label for="self_arrange">self_arranged Housing</label>
+    <br><br>
+
+    <label for="guardian">Guardian's Name:</label>
+    <input type="text" id="guardian" name="guardian" placeholder="Enter guardian's name" required>
+    <br><br>
+
+    <label for="guardian_contact">Guardian's Contact</label>
+    <input type="tel" id="guardian_contact" name="guardian_contact" placeholder="Enter phone number" required>
+    <br><br>
+
+    <input type="submit" value="Submit Application">
+   </form>
+</body>
+</html>
